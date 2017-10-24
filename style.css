@@ -1,0 +1,147 @@
+body {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    font-family: "Quicksand","Raleway";
+}
+
+/* navigation bar */
+ul {
+    list-style-type: none;
+    margin-top:350px; 
+    margin-left: 60px;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* navigation items */
+ul li a {
+	font-family: 'Raleway', serif;
+    font-size: 1.8rem;
+	color: black;
+}
+
+/* navigation on hover */
+ul li a:hover {
+	color:  #9b4865;
+}
+
+/* header1 */
+h1 {
+    font-family: 'Raleway', serif;
+}
+
+/* header4 */
+h4 {
+    font-family: 'Raleway', serif;
+    font-size: 15px;
+    color: #CA6588;
+}
+
+h5 {
+    font-family: 'Quicksand', serif;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 1.6;
+}
+
+
+/* paragraph */
+p {
+    font-family: 'Raleway', serif;
+    line-height: 1.4;
+}
+
+a {
+    color: #336b6b;
+}
+
+.tableStyle {
+    border: solid 1px #DDEEEE;
+    border-collapse: collapse;
+    border-spacing: 0;
+    font: normal 13px 'Raleway', serif;
+}
+
+.tableStyle thead th {
+    background-color: #DDEFEF;
+    border: solid 1px #DDEEEE;
+    color: #336B6B;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 1px 1px 1px #fff;
+}
+
+.tableStyle tbody td {
+    border: solid 1px #DDEEEE;
+    color: #333;
+    padding: 10px;
+}
+
+
+.container {
+    width: 800px;
+    height: 380px;
+    border: 1px solid #a3d6d6;
+    border-radius: 5px;
+}
+
+.header {
+    border-radius: 5px;
+    padding: 15px;
+    background-color: #a3d6d6;
+    color: white;
+    font-size: 130%;
+    font:  'Quicksand', serif;
+    text-align: center;
+    text-shadow: 1px 1px 1px grey;
+
+}
+
+.col1 {
+    float: left;
+    width: 50%;
+    margin: 5px;
+}
+
+.col2{
+    float: right;
+    width: 48%;
+    margin-top: 20px;
+}
+
+#addFormOut {
+    border: dotted 1px;
+    border-color: #9b4865;
+}
+
+#addFormIn {
+    border:none;
+}
+
+#addFormOut2 {
+    border: dotted 1px;
+    border-color: #a3d6d6;
+}
+
+
+input[type=submit]{
+    font-family: 'Quicksand', serif;
+    color: white;
+    background-color: #9b4865;
+    font-size: 13px;
+}
+
+#update_div {
+   margin-left:720px;
+    margin-top: 0px;
+}
+
+#update_submit {
+    background-color: #7CC4C2;
+    margin-left: 600px;
+}
+
+label.required>span.red {
+    color: red;
+}
